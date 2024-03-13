@@ -1,4 +1,5 @@
-from langchain_community.vectorstores import FAISS
+#from langchain_community.vectorstores import FAISS
+from langchain_community.vectorstores.faiss import FAISS
 from langchain_google_genai import GoogleGenerativeAI
 #from langchain_community.llms import GooglePalm
 from langchain.document_loaders.csv_loader import CSVLoader
