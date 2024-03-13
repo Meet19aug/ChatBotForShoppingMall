@@ -1,7 +1,7 @@
-from langchain_community.vectorstores import FAISS
+from langchain.vectorstores import FAISS
 from langchain.llms import GooglePalm
 from langchain.document_loaders.csv_loader import CSVLoader
-from langchain_community.embeddings import HuggingFaceInstructEmbeddings
+from langchain.embeddings import HuggingFaceInstructEmbeddings
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 import os
